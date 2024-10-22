@@ -1,5 +1,5 @@
 # 💫 About Me:
-A passionate frontend developer and little of backend developer from India<br>
+A professional and passionate full-stack web developer from India<br>
 [![](https://visitcount.itsvg.in/api?id=codewithsaurabhyadav&icon=0&color=0)](https://visitcount.itsvg.in)
 
 ## 🌐 Socials:
