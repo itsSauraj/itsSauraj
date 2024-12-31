@@ -30,7 +30,7 @@ techStack:
   mscellaneous: [WebSockets, GraphQL]
 ```
 ### contact.js
-```
+```js
 const email = "sauraj.contact@gmail.com";
 ```
 ### os_i_use.tsx
