@@ -25,15 +25,17 @@ echo -e "$aboutme"
 socials:
   Instagram: "https://instagram.com/this.is.saurabh.official"
   LinkedIn: "https://linkedin.com/in/saurabhyadav07"
-  Twitter: "https://twitter.com/yadav_saurabh_7"
+  X: "https://x.com/yadav_saurabh_7"
+  Website: "https://saurabh-yadav.vercel.app/"
 ```
-### tech_stack.py
+### skills_and_tech_stack.py
 ```py
+from Typing import Dict, List
 from fastapi import FastAPI
 
-app = FastAPI()
+skills = FastAPI()
 
-tech_stack = {
+stack: Dict[str, List[str]] = {
     "languages": ["C", "Python", "PHP", "JavaScript", "HTML", "CSS", "Java", "TypeScript"],
     "frameworks_libraries": ["Bootstrap", "React", "TailwindCSS", "NextJS", "Django", "FastAPI", "REST Framework"],
     "databases": ["MySQL", "SQL", "mongoDB", "PostgresSQL", "SQLite3", "Firebase", "MongoDBAtlas"],
@@ -43,20 +45,25 @@ tech_stack = {
     "miscellaneous": ["WebSockets", "GraphQL"]
 }
 
-@app.get("/tech-stack")
-async def get_tech_stack():
-    return tech_stack
+@skills.get("/skills-and-tech-stack")
+async def get_skills_and_tech_stack():
+    return stack
 ```
-
 ### contact.js
 ```js
-const email = "sauraj.contact@gmail.com";
+const contacts = {
+  email: "sauraj.contact@gmail.com",
+};
+
+console.log(contacts);
 ```
 ### os_i_use.tsx
 ```ts
-const system: Record<string, Record<string | string[]>> = {
+const systems: Record<string, Record<string | string[]>> = {
     "debian" : ["ubuntu", "kali", "parrot"],
     "windows" : ["windows 10", "windows 11"],
     "mac": "maxOSX",
-}
+};
+
+console.log(systems)
 ```
