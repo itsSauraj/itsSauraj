@@ -20,8 +20,8 @@ socials: Dict[str, str] = {
     "Twitter": "https://twitter.com/yadav_saurabh_7"
 }
 ```
-### tech_stack.yaml
-```
+### tech_stack.py
+```yaml
 techStack:
   languages: [C, Python, PHP, JavaScript, HTML, CSS, Java, TypeScript]
   frameworksLibraries: [Bootstrap, React, TailwindCSS, NextJS, Django, FastAPI, REST Framework]
