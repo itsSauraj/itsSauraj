@@ -1,14 +1,15 @@
 ### who_am_i.sh
 ```bash
-#!/bin/bash
+#! /bin/bash
 
-$aboutme = "I’m Saurabh, a full-stack web developer from India, skilled in languages\n
-  like C, Python, JavaScript, TypeScript, and PHP.\nI specialize in frameworks such\n
-  as React, NextJS, Django, and FastAPI, and have hands-on experience with databases\n
-  including MySQL, PostgreSQL, and MongoDB.\nI’m passionate about problem-solving,\n
-  building scalable web applications, and constantly learning new technologies to\n
-  stay at the forefront of development."
-
+aboutme="
+I’m Saurabh, a full-stack web developer from India, skilled in languages
+like C, Python, JavaScript, TypeScript, and PHP. I specialize in frameworks such
+as React, NextJS, Django, and FastAPI, and have hands-on experience with databases
+including MySQL, PostgreSQL, and MongoDB.I’m passionate about problem-solving,
+building scalable web applications, and constantly learning new technologies to
+stay at the forefront of development.
+"
 echo -e "$aboutme"
 ```
 ### about_me.json
