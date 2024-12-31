@@ -20,7 +20,7 @@ socials: Dict[str, str] = {
     "Twitter": "https://twitter.com/yadav_saurabh_7"
 }
 ```
-### tech_stack.py
+### tech_stack.yaml
 ```yaml
 techStack:
   languages: [C, Python, PHP, JavaScript, HTML, CSS, Java, TypeScript]
@@ -31,6 +31,27 @@ techStack:
   versionControl: [Github]
   mscellaneous: [WebSockets, GraphQL]
 ```
+### tech_stack.py
+```py
+from fastapi import FastAPI
+
+app = FastAPI()
+
+tech_stack = {
+    "languages": ["C", "Python", "PHP", "JavaScript", "HTML", "CSS", "Java", "TypeScript"],
+    "frameworks_libraries": ["Bootstrap", "React", "TailwindCSS", "NextJS", "Django", "FastAPI", "REST Framework"],
+    "databases": ["MySQL", "SQL", "mongoDB", "PostgresSQL", "SQLite3", "Firebase", "MongoDBAtlas"],
+    "tools": ["Adobe Photoshop", "Figma", "Git", "VisualStudioCode", "PyCharm", "Docker", "Kubernetes"],
+    "testing": ["Jest"],
+    "version_control": ["Github"],
+    "miscellaneous": ["WebSockets", "GraphQL"]
+}
+
+@app.get("/tech-stack")
+async def get_tech_stack():
+    return tech_stack
+```
+
 ### contact.js
 ```js
 const email = "sauraj.contact@gmail.com";
