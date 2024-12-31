@@ -1,6 +1,15 @@
 ### who_am_i.sh
 ```bash
-printf "Hello, Devs! I'm Saurabh, a passionate full-stack web developer from India 🌏.\n"
+#!/bin/bash
+
+$aboutme = "I’m Saurabh, a full-stack web developer from India, skilled in languages\n
+  like C, Python, JavaScript, TypeScript, and PHP.\nI specialize in frameworks such\n
+  as React, NextJS, Django, and FastAPI, and have hands-on experience with databases\n
+  including MySQL, PostgreSQL, and MongoDB.\nI’m passionate about problem-solving,\n
+  building scalable web applications, and constantly learning new technologies to\n
+  stay at the forefront of development."
+
+echo -e "$aboutme"
 ```
 ### about_me.json
 ```json
@@ -10,26 +19,12 @@ printf "Hello, Devs! I'm Saurabh, a passionate full-stack web developer from Ind
   "traits": ["Problem Solver", "Team Player", "Quick Learner"]
 }
 ```
-### socials.py
-```py
-from typing import Dict
-
-socials: Dict[str, str] = {
-    "Instagram": "https://instagram.com/this.is.saurabh.official",
-    "LinkedIn": "https://linkedin.com/in/saurabhyadav07",
-    "Twitter": "https://twitter.com/yadav_saurabh_7"
-}
-```
-### tech_stack.yaml
+### socials.yaml
 ```yaml
-techStack:
-  languages: [C, Python, PHP, JavaScript, HTML, CSS, Java, TypeScript]
-  frameworksLibraries: [Bootstrap, React, TailwindCSS, NextJS, Django, FastAPI, REST Framework]
-  databases: [MySQL, SQL, mongoDB, PostgresSQL, SQLlite3, firebase, MongoDBAtlas]
-  tools: [Adobe Photoshop, Figma, Git, VisualStudioCode, PyCharm, Docker, Kubernetes]
-  testing: [Jest]
-  versionControl: [Github]
-  mscellaneous: [WebSockets, GraphQL]
+socials:
+  Instagram: "https://instagram.com/this.is.saurabh.official"
+  LinkedIn: "https://linkedin.com/in/saurabhyadav07"
+  Twitter: "https://twitter.com/yadav_saurabh_7"
 ```
 ### tech_stack.py
 ```py
